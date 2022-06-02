@@ -1,4 +1,4 @@
-"$$ vim -u vim-init.vim
+"$$ vim -u vim-init.vim  -S my-session.vim
 
 "// https://askubuntu.com/a/353944
 set nocompatible
@@ -6,8 +6,6 @@ set nocompatible
 "// https://www.youtube.com/watch?v=XA2WjJbmmoM
 syntax enable
 filetype plugin on
-"// Auto-completion
-"   CTRL-n  and  CTRL-p
 
 
 set number relativenumber
@@ -28,3 +26,13 @@ nnoremap ; :
 
 "// TERMINAL Mode
 tnoremap <Esc><Esc> <C-\><C-n>
+
+
+"// Auto-completion
+"   CTRL-n  and  CTRL-p
+
+"// Sessions
+"   :mksession! my-session.vim
+
+"// File explorer
+"   Texplore
